@@ -8,14 +8,12 @@
 }
 body{
     margin: 0 auto;
-    background-color: #444444;
+    background-color: #FFFFFF;
 }
 .header-section{
+    /* height: 837px; */
+    position: relative;
     background: #FFF8F3;
-    height: 837px;
-    background-image: url(../images/developer.png);
-    background-repeat: no-repeat;
-    background-position: left;
 }
 
 /* Nav section styles */
@@ -51,21 +49,36 @@ nav ul li{
     color: #FFFFFF;
     padding: 18px 35px;
     border-radius: 5px;
+    cursor: pointer;
 }
 /* Banner style */
 .banner{
     display: flex;
     justify-content: space-between;
-    gap: 22px;
     align-items: center;
     background: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: auto;
+    margin-bottom: 130px;
 }
 .portfolio-heading{
     margin-left: 200px;
-    width: 500px;
+   
+}
+.portfolio-subtitle{
+    font-size: 45px;
+}
+.portfolio-name{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+}
+.portfolio-desc{
+    font-size: 18px;
+    color: #757575;
+    margin: 20px 0 30px 0;
+    line-height: 30px;
 }
 .btn-outline{
     background-color: #fff;
@@ -76,6 +89,47 @@ nav ul li{
     font-size: 20px;
     margin-left: 10px;
 }
-.portfolio-image img{
-    height: 676px;
+.fa-phone{
+    color: var(--primary);
 }
+.portfolio-image img{
+    margin: -5px;
+}
+.developer{
+    position: absolute;
+    left: 20px;
+    top: 40px;
+}
+/* About section styles */
+.about{
+    margin: 0 230px;
+    text-align: center;
+    padding: 130px 156px;
+    background-color: #FFF8F3;
+}
+.about-title{
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about-desc{
+    margin-bottom: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #757575;
+}
+.about-details{
+    display: flex;
+    justify-content: space-around;
+}
+.about-top{
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.about-sub{
+    color: #474747;
+    font-size: 20px;
+    
+}
+

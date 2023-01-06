@@ -13,6 +13,7 @@ body {
 }
 a{
   text-decoration: none;
+  color: #474747;
 }
 .header-section {
   /* height: 837px; */

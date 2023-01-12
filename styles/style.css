@@ -271,3 +271,7 @@ button[type="submit"]{
     color: #474747;
   }
 } */
+
+.hide{
+  display: none;
+}

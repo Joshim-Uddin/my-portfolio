@@ -254,23 +254,40 @@ button[type="submit"]{
   margin-top: 20px;
 }
 
-/* @media only screen and(max-width:600px){
-  .navigation {
-    display: flex;
+ @media only screen and (max-width:576px){
+  .skills{
+    margin: 0 10px 20px 10px;
+  }
+  .skill-desc{
+    padding:10px;
+  }
+  .skills-card{
     flex-direction: column;
-    padding: 20px;
+    justify-content: center;
   }
-  nav ul {
-    display: flex;
+  .card{
+    max-width: 100%;
+  }
+  .summery{
+    margin: 0 10px 20px 10px;
+  }
+  .summery-details{
     flex-direction: column;
-    gap: 10px;
   }
-  nav ul li {
-    list-style: none;
-    font-size: 20px;
-    color: #474747;
+  .footer{
+  margin: 0 10px;
+  display: block;
+ }
+}
+
+@media only screen and (min-width:577px) and (max-width: 992px){
+  .summery{
+    margin: 0 50px 30px 50px;
   }
-} */
+  .footer{
+   margin: 0 20px;
+  }
+ }
 
 .hide{
   display: none;

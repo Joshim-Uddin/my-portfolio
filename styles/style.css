@@ -260,16 +260,21 @@ button[type="submit"]{
   }
   .skill-desc{
     padding:10px;
+    margin: 0;
   }
   .skills-card{
     flex-direction: column;
     justify-content: center;
+    padding: 10px;
   }
   .card{
     max-width: 100%;
   }
   .summery{
     margin: 0 10px 20px 10px;
+  }
+  .summery-title{
+    margin-bottom: 60px;
   }
   .summery-details{
     flex-direction: column;
